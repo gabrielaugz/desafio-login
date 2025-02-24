@@ -41,20 +41,25 @@ Projeto em Django que implementa telas de **Login** e **Registro** com validaç�
    cd seu-repositorio
    ```
 2. **Criando e ativando ambiente virtual**
-    ```bash
+    ```console
     python -m venv .venv
     .venv\Scripts\activate
+    ```
 3. **Instalando as dependências**  
-    ```bash
+    ```console
     pip install -r requirements.txt
+    ```
 4. **Criação do Banco de Dados**
-    ```bash
+    ```console
     CREATE DATABASE desafio_login;
+    ```
 5. **Execute as migrações**
-    ```bash
+    ```console
     python manage.py makemigrations
     python manage.py migrate
+    ```
 6. **Execute o servidor localmente**
-    ```bash
+    ```console
     python manage.py runserver
     Acesse http://127.0.0.1:8000/ para ver a tela inicial 
+    ```
