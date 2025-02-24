@@ -36,20 +36,25 @@ Projeto em Django que implementa telas de **Login** e **Registro** com validaç�
 ## Instalação
 
 1. **Clonar o repositório**:
-   ```bash
+   ```console
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
+   ```
 2. **Criando e ativando ambiente virtual**
-    ```python -m venv .venv
+    ```bash
+    python -m venv .venv
     .venv\Scripts\activate
 3. **Instalando as dependências**  
-    ```pip install -r requirements.txt
-4. **Configuração do Banco de Dados**
-    Apenas crie o banco de dados:
-    ```CREATE DATABASE desafio_login;
+    ```bash
+    pip install -r requirements.txt
+4. **Criação do Banco de Dados**
+    ```bash
+    CREATE DATABASE desafio_login;
 5. **Execute as migrações**
-    ```python manage.py makemigrations
+    ```bash
+    python manage.py makemigrations
     python manage.py migrate
 6. **Execute o servidor localmente**
-    ```python manage.py runserver
+    ```bash
+    python manage.py runserver
     Acesse http://127.0.0.1:8000/ para ver a tela inicial 
